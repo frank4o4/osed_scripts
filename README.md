@@ -2,7 +2,11 @@
 Anyscripts I create for osed course I will share here.
 
 
-## search_rops.txt
+## search_rops.sh
+
+Works good by using the find_rop.py first than cross referencing with the search_rops.sh.
+
+The search patterns are from the the find_rop.py suggestion.
 
 This simple script is used to search the output of `rp-win-x86.exe`
 
@@ -10,6 +14,15 @@ Sample way to run and exclude badchars.
 ```
 rp-win-x86.exe -r5 -f <filename> --unique --bad-bytes=\x00\x09\x0a\x0b\x0c\x0d\x20
 ```
+
+## find_rop.py
+
+Not orginal author, good script just removed a few lines and added static path to rp++ binary so it would run under Windows x86
+
+
+## search_rops.ps1
+
+Work in progress trying to get this to work so in case you are not allowed to bring the text output to kali on the osed exam you can use this to run on the Windows machine.
 
 
 ## XORing Null Bytes:
