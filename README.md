@@ -1,2 +1,2 @@
 # osed_scripts
-Scripts
+Anyscripts I create for osed course I will share here.
