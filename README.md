@@ -47,8 +47,9 @@ import pwn
     push 0x43656854
     push 0x776f656d
 
-List all functions and attributes of the pwn module
+
 ```
+List all functions and attributes of the pwn module
 
 ``` python
 import pwn
