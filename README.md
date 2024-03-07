@@ -1,6 +1,9 @@
 # osed_scripts
 Anyscripts I create for osed course I will share here.
 
+## remove_bad.py
+
+This will remove all the bad assembly instrutions that would mess up the stack during rop chainning.
 
 ## search_rops.sh
 
