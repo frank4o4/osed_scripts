@@ -25,6 +25,20 @@ Not orginal author, good script just removed a few lines and added static path t
 Work in progress trying to get this to work so in case you are not allowed to bring the text output to kali on the osed exam you can use this to run on the Windows machine.
 
 
+## IDAPRO Desktop Icon
+You can create a desktop icon by creating a file called idapro.desktop, and inside the file map out the path to your installation binary and the path to the icon.
+
+```
+[Desktop Entry]
+Type=Application
+Name=IDAPRO
+Icon=/opt/idafree-8.4/appico64.png
+Exec=/usr/bin/ida64
+Terminal=false
+Categories=Development;
+```
+
+
 ## XORing Null Bytes:
 
 You can XOR the null bytes in the IP address to avoid having literal null bytes in your code. 
