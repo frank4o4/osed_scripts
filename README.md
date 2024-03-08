@@ -27,6 +27,8 @@ Not orginal author, good script just removed a few lines and added static path t
 
 Work in progress trying to get this to work so in case you are not allowed to bring the text output to kali on the osed exam you can use this to run on the Windows machine.
 
+## StringToAsm.py
+This takes your string and converts into assembly
 
 ## IDAPRO Desktop Icon
 You can create a desktop icon by creating a file called idapro.desktop, and inside the file map out the path to your installation binary and the path to the icon.
@@ -86,4 +88,5 @@ import pwn
 
 print(dir(pwn))
 ```
+
 
