@@ -36,6 +36,7 @@ This takes your string and converts into assembly
 ## IDAPRO Desktop Icon
 You can create a desktop icon by creating a file called idapro.desktop, and inside the file map out the path to your installation binary and the path to the icon.
 
+Copy the idapro.desktop to /usr/share/applications
 ```
 [Desktop Entry]
 Type=Application
